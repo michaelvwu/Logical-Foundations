@@ -1,4 +1,4 @@
-DIGEST de32bb64d0863b8ce2632d5cbb9d6e1a
+DIGEST 67f5c7e2a12862d94d516f53dbe215de
 FLF.Auto
 R93:107 Coq.omega.Omega <> <> lib
 R133:136 LF.Maps <> <> lib
@@ -678,55 +678,55 @@ R19883:19883 LF.Imp <> X def
 R19871:19881 LF.Imp <> empty_state def
 R19910:19914 LF.Imp <> E_Seq constr
 R19910:19914 LF.Imp <> E_Seq constr
-R19935:19939 LF.Imp <> E_Ass constr
-R19935:19939 LF.Imp <> E_Ass constr
-R19993:20001 LF.Imp <> E_IfFalse constr
-R19993:20001 LF.Imp <> E_IfFalse constr
-R20023:20027 LF.Imp <> E_Ass constr
-R20023:20027 LF.Imp <> E_Ass constr
-R21174:21178 LF.Auto <> ceval ind
-R21198:21202 LF.Imp <> state def
-R21222:21230 LF.Maps <> total_map def
-def 21245:21248 <> st12
-R21253:21260 LF.Maps <> t_update def
-R21289:21289 LF.Imp <> Y def
-R21263:21270 LF.Maps <> t_update def
-R21284:21284 LF.Imp <> X def
-R21272:21282 LF.Imp <> empty_state def
-def 21305:21308 <> st21
-R21313:21320 LF.Maps <> t_update def
-R21349:21349 LF.Imp <> Y def
-R21323:21330 LF.Maps <> t_update def
-R21344:21344 LF.Imp <> X def
-R21332:21342 LF.Imp <> empty_state def
-def 21363:21376 <> auto_example_8
-R21380:21386 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
-R21389:21392 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
-R21393:21393 LF.Imp <> ::x_'/'_x_'\\'_x not
-R21503:21506 LF.Imp <> ::x_'/'_x_'\\'_x not
-R21511:21514 LF.Imp <> ::x_'/'_x_'\\'_x not
-R21394:21398 LF.Imp <> ::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
-R21418:21429 LF.Imp <> ::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
-R21458:21469 LF.Imp <> ::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
-R21497:21502 LF.Imp <> ::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
-R21399:21401 LF.Imp <> BLe constr
-R21412:21414 LF.Imp <> AId constr
+R20002:20006 LF.Imp <> E_Ass constr
+R20002:20006 LF.Imp <> E_Ass constr
+R20060:20068 LF.Imp <> E_IfFalse constr
+R20060:20068 LF.Imp <> E_IfFalse constr
+R20090:20094 LF.Imp <> E_Ass constr
+R20090:20094 LF.Imp <> E_Ass constr
+R21241:21245 LF.Auto <> ceval ind
+R21265:21269 LF.Imp <> state def
+R21289:21297 LF.Maps <> total_map def
+def 21312:21315 <> st12
+R21320:21327 LF.Maps <> t_update def
+R21356:21356 LF.Imp <> Y def
+R21330:21337 LF.Maps <> t_update def
+R21351:21351 LF.Imp <> X def
+R21339:21349 LF.Imp <> empty_state def
+def 21372:21375 <> st21
+R21380:21387 LF.Maps <> t_update def
 R21416:21416 LF.Imp <> Y def
-R21404:21406 LF.Imp <> AId constr
-R21408:21408 LF.Imp <> X def
-R21431:21435 LF.Imp <> ::x_'::='_x not
-R21430:21430 LF.Imp <> Z def
-R21436:21441 LF.Imp <> AMinus constr
-R21452:21454 LF.Imp <> AId constr
-R21456:21456 LF.Imp <> X def
-R21444:21446 LF.Imp <> AId constr
-R21448:21448 LF.Imp <> Y def
-R21471:21475 LF.Imp <> ::x_'::='_x not
-R21470:21470 LF.Imp <> Y def
-R21476:21480 LF.Imp <> APlus constr
-R21491:21493 LF.Imp <> AId constr
-R21495:21495 LF.Imp <> Z def
-R21483:21485 LF.Imp <> AId constr
-R21487:21487 LF.Imp <> X def
-R21507:21510 LF.Auto <> st21 def
-R21515:21516 LF.Auto <> s' var
+R21390:21397 LF.Maps <> t_update def
+R21411:21411 LF.Imp <> X def
+R21399:21409 LF.Imp <> empty_state def
+def 21430:21443 <> auto_example_8
+R21447:21453 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R21456:21459 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R21460:21460 LF.Imp <> ::x_'/'_x_'\\'_x not
+R21570:21573 LF.Imp <> ::x_'/'_x_'\\'_x not
+R21578:21581 LF.Imp <> ::x_'/'_x_'\\'_x not
+R21461:21465 LF.Imp <> ::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R21485:21496 LF.Imp <> ::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R21525:21536 LF.Imp <> ::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R21564:21569 LF.Imp <> ::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R21466:21468 LF.Imp <> BLe constr
+R21479:21481 LF.Imp <> AId constr
+R21483:21483 LF.Imp <> Y def
+R21471:21473 LF.Imp <> AId constr
+R21475:21475 LF.Imp <> X def
+R21498:21502 LF.Imp <> ::x_'::='_x not
+R21497:21497 LF.Imp <> Z def
+R21503:21508 LF.Imp <> AMinus constr
+R21519:21521 LF.Imp <> AId constr
+R21523:21523 LF.Imp <> X def
+R21511:21513 LF.Imp <> AId constr
+R21515:21515 LF.Imp <> Y def
+R21538:21542 LF.Imp <> ::x_'::='_x not
+R21537:21537 LF.Imp <> Y def
+R21543:21547 LF.Imp <> APlus constr
+R21558:21560 LF.Imp <> AId constr
+R21562:21562 LF.Imp <> Z def
+R21550:21552 LF.Imp <> AId constr
+R21554:21554 LF.Imp <> X def
+R21574:21577 LF.Auto <> st21 def
+R21582:21583 LF.Auto <> s' var

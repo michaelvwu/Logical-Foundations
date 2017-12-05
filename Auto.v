@@ -610,7 +610,7 @@ Example ceval'_example1:
    / empty_state
    \\ (t_update (t_update empty_state X 2) Z 4).
 Proof.
-  eapply E_Seq. (* 1 *)
+  eapply E_Seq. (* 1 *)  (* eapply is a metavariable, able to skip intermediate values. *)
   - apply E_Ass. (* 2 *)
     reflexivity. (* 3 *)
   - (* 4 *) apply E_IfFalse. reflexivity. apply E_Ass. reflexivity.
