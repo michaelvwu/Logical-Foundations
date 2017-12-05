@@ -23,7 +23,12 @@ Call it [factors].
   | comp_k : forall n k k1 : nat, k > 1 /\ k < n -> k1. *)
 
 
-
+Inductive composite: nat -> Prop :=
+  factors: forall n: nat, 
+          n > 1 ->
+          (exists h k: nat,
+          h>1 /\ k>1 /\ n= h* k) ->
+          composite n. 
 
 (* #1B: Now write and then prove a theorem stating that 4 is composite. 
 As a hint, recall that > is just a notation for a function.
@@ -32,12 +37,23 @@ As a hint, recall that > is just a notation for a function.
 (* Theorem composite_4 : composite 4. 
 Proof. 
   split. apply factors. apply factors. Qed. *)
+  
+Theorem composite_4 : composite 4.
+apply factors. 
+unfold gt. unfold lt. apply le_S. apply le_S. apply le_n.
+exists 2. exists 2. split.
+
+unfold gt. unfold lt. apply le_n. 
+split. 
+unfold gt. unfold lt. apply le_n.
+reflexivity. 
+Qed.
 
 
 
 (*
 #2: We formalize ordinary logical conjunction in Coq as a type,
-constructor, [and], polymorphic in two ("smaller") conjuctions,
+constructor, [and], polymorphic in two ("smaller") propositions,
 with a proof constructor, [conj], that when given a proof of [P]
 and a proof of [Q] constructs and returns a proof of [and P Q] 
 
@@ -67,6 +83,8 @@ Import ListNotations.
 
 Theorem notprep :  *)
 
+
+
 (*
 #3: In a precise but informal sentence, state what the axiom 
 of "functional extensionality" asserts. Write your answer in 
@@ -74,6 +92,8 @@ terms of two functions, f and g, each from some type, A, to
 some type B. Write your answer within this comment block:
 
 ANSWER:  forall (A B : Type) (f g : A -> B), (forall x : X, f x = g x) -> f = g 
+
+Given functions f and g from A to B, if for every value , a, of type A, fa = g a then f =g. 
 *)
 
 (*
@@ -81,7 +101,7 @@ ANSWER:  forall (A B : Type) (f g : A -> B), (forall x : X, f x = g x) -> f = g
 means for a relation to be a function? You can write your answer
 in terms of a function, f, from some type, A, to some type B. 
 
-ANSWER:  
+ANSWER: if for all a fo type A, f(a) = x and f(a) = y, then x = y. 
 *)
 
 (*
@@ -106,6 +126,9 @@ Short Explanation says that:
 For all values x1...xn of types a1...an, 
 if P holds for each of the inductive arguments (each xi of type t), 
 then P holds for c x1 ... xn
+
+For any propoerty P of values of type [list A] if the empty list has P, and 
+if P is preserved by cons, then all lists have property P.
 *)
 
 (*
